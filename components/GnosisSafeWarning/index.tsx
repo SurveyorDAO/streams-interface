@@ -25,7 +25,7 @@ export default function GnosisSafeWarning() {
         dialog.show();
       }
     }
-  }, [address]);
+  }, [address, dialog, provider]);
 
   return (
     <FormDialog title="Switch to Gnosis App" dialog={dialog}>
