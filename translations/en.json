@@ -1,7 +1,7 @@
 {
   "Common": {
     "getStarted": "Get Started",
-    "connectWallet": "Connect a Wallet",
+    "connectWallet": "Connect Wallet",
     "account": "Account",
     "connectedWith": "Connected with",
     "connectedAs": "Connected as",
@@ -60,7 +60,7 @@
     "heading": "Balances",
     "balance": "Balance",
     "connectWallet": "Connect wallet to view your balances",
-    "deposit": "Deposit new token",
+    "deposit": "Deposit Token",
     "noData": "Create a Balance First",
     "error": "Couldn't load balances",
     "toDepleted": "To Depleted",
@@ -172,7 +172,7 @@
     "confirmStreams": "Confirm Streams"
   },
   "OnboardWalletConnect": {
-    "header": "Connect your wallet",
+    "header": "Connect Wallet",
     "initializing": "Initializing",
     "footer": "Connecting a wallet doesn't move funds",
     "welcome": "Welcome!",

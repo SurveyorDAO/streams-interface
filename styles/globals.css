@@ -35,11 +35,11 @@
   }
 
   .nav-button {
-    @apply shadow-1 rounded-[10px] border border-lp-secondary bg-lp-white py-2 px-4 font-medium text-lp-primary dark:border-transparent dark:bg-lp-green-4 dark:text-lp-white;
+    @apply shadow-1 rounded-[10px] border border-lp-secondary bg-lp-white py-2 px-4 font-medium text-lp-primary dark:border-transparent dark:bg-lp-gray-4 dark:text-lp-white;
   }
 
   .nav-button-v2 {
-    @apply h-10 rounded-lg border border-llama-teal-2 px-4 py-1 text-llama-gray-600 dark:border-lp-gray-7 dark:text-llama-gray-100;
+    @apply h-10 rounded-lg border border-llama-gray-2 px-4 py-1 text-llama-gray-600 dark:border-lp-gray-7 dark:text-llama-gray-100;
   }
 
   .primary-button {

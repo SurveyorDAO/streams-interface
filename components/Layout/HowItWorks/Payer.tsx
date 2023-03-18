@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Payer() {
   return (
     <>
-      <div className="relative flex flex-col justify-between gap-5 rounded-[0.375rem] bg-lp-white px-11 pt-4 text-center dark:bg-lp-green-4 sm:text-lg">
+      <div className="relative flex flex-col justify-between gap-5 rounded-[0.375rem] bg-lp-white px-11 pt-4 text-center dark:bg-lp-gray-4 sm:text-lg">
         <h2 className="font-exo z-10 font-medium sm:text-2xl">Input payee information</h2>
 
         <div className="z-10 flex h-[11rem] flex-col gap-3 rounded-t-[1.25rem] bg-lp-secondary bg-opacity-50">
@@ -89,7 +89,7 @@ export default function Payer() {
         </svg>
       </div>
 
-      <div className="relative flex flex-col justify-between gap-5 rounded-[0.375rem] bg-lp-white px-11 pt-4 text-center dark:bg-lp-green-4 sm:text-lg">
+      <div className="relative flex flex-col justify-between gap-5 rounded-[0.375rem] bg-lp-white px-11 pt-4 text-center dark:bg-lp-gray-4 sm:text-lg">
         <h2 className="font-exo z-10 font-medium sm:text-2xl">Enter amount & frequency</h2>
 
         <div className="z-10 flex h-[11rem] flex-col gap-3 rounded-t-[1.25rem] bg-lp-secondary bg-opacity-50">
@@ -183,7 +183,7 @@ export default function Payer() {
         </svg>
       </div>
 
-      <div className="relative flex flex-col justify-between gap-5 rounded-[0.375rem] bg-lp-white px-11 pt-4 text-center dark:bg-lp-green-4 sm:text-lg">
+      <div className="relative flex flex-col justify-between gap-5 rounded-[0.375rem] bg-lp-white px-11 pt-4 text-center dark:bg-lp-gray-4 sm:text-lg">
         <h2 className="font-exo z-10 font-bold sm:text-2xl">Start Streaming!</h2>
 
         <div className="z-10 flex h-[11rem] flex-col gap-3 rounded-t-[1.25rem] bg-lp-secondary bg-opacity-50">

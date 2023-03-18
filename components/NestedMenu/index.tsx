@@ -67,7 +67,7 @@ export const Menu = forwardRef<HTMLDivElement, MenuProps>(function B({ label, ch
       )}
       <BaseMenu
         state={menu}
-        className="z-10 min-w-[10rem] rounded-lg border border-llama-teal-2 bg-white p-2 drop-shadow-sm dark:border-lp-gray-7 dark:bg-[#202020]"
+        className="z-10 min-w-[10rem] rounded-lg border border-llama-gray-2 bg-white p-2 drop-shadow-sm dark:border-lp-gray-7 dark:bg-[#202020]"
       >
         <MenuContext.Provider value={true}>{children}</MenuContext.Provider>
       </BaseMenu>

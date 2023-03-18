@@ -35,7 +35,7 @@ export function History() {
           y2="5.83653"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#D9F7EE" />
+          <stop stopColor="#FFFFFF" />
           <stop offset="1" stopColor="#2DF19B" />
         </linearGradient>
         <linearGradient
@@ -46,8 +46,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_174_56509"
@@ -57,8 +57,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_174_56509"
@@ -68,8 +68,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_174_56509"
@@ -79,8 +79,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_174_56509"
@@ -90,8 +90,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_174_56509"
@@ -101,8 +101,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_174_56509"
@@ -112,8 +112,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_174_56509"
@@ -123,8 +123,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_174_56509"
@@ -134,8 +134,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_174_56509"
@@ -145,8 +145,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_174_56509"
@@ -156,8 +156,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_174_56509"
@@ -167,8 +167,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_174_56509"
@@ -178,8 +178,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_174_56509"
@@ -189,8 +189,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_174_56509"
@@ -200,8 +200,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_174_56509"
@@ -211,8 +211,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_174_56509"
@@ -222,8 +222,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_174_56509"
@@ -233,8 +233,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_174_56509"
@@ -244,8 +244,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_174_56509"
@@ -255,8 +255,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_174_56509"
@@ -266,8 +266,8 @@ export function History() {
           y2="19.293"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFE" />
         </linearGradient>
       </defs>
     </svg>

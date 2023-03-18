@@ -9,6 +9,7 @@ import { NetworksMenu, Account, WalletSelector } from '~/components/Web3';
 import { Logo } from '~/components/Icons';
 import { useTheme } from 'next-themes';
 import { useIsMounted } from '~/hooks';
+import Image from 'next/image'
 
 const Header = ({ onboardDialog, walletDialog }: { onboardDialog: DisclosureState; walletDialog: DisclosureState }) => {
   const { isConnected } = useAccount();
@@ -16,16 +17,23 @@ const Header = ({ onboardDialog, walletDialog }: { onboardDialog: DisclosureStat
   const t = useTranslations('Common');
 
   const { setTheme, resolvedTheme } = useTheme();
-
+  // forces dark
+  setTheme('dark')
   const isMounted = useIsMounted();
 
   const isDark = resolvedTheme === 'dark';
 
   return (
-    <header className="flex items-center justify-between gap-10 border-b border-llama-teal-2 bg-llama-teal-1 bg-opacity-5 py-4 px-2 text-base dark:border-lp-gray-7 dark:bg-lp-gray-8 md:px-6 lg:px-8">
+    <header className="flex items-center justify-between gap-10 border-b border-llama-gray-2 bg-llama-gray-1 bg-opacity-5 py-4 px-2 text-base dark:border-lp-gray-7 dark:bg-lp-gray-8 md:px-6 lg:px-8">
       <Link href="/">
         <span className="sr-only">Navigate to Home Page</span>
-        <Logo />
+        {/* <Logo /> */}
+        <Image
+          src='/favicons/favicon.png'
+          height={36}
+          width={36}
+          alt={'logo'}
+        />
       </Link>
 
       {isMounted && (
@@ -42,9 +50,9 @@ const Header = ({ onboardDialog, walletDialog }: { onboardDialog: DisclosureStat
               </button>
             )}
 
-            <button
+            {/* <button
               className="nav-button-v2 w-10 cursor-pointer px-[11px]"
-              onClick={() => setTheme(isDark ? 'light' : 'dark')}
+              // onClick={() => setTheme(isDark ? 'light' : 'dark')}
             >
               {isMounted && (
                 <>
@@ -52,7 +60,7 @@ const Header = ({ onboardDialog, walletDialog }: { onboardDialog: DisclosureStat
                   {!isDark ? <SunIcon className="h-4 w-4" /> : <MoonIcon className="h-4 w-4" />}
                 </>
               )}
-            </button>
+            </button> */}
 
             <Menu onboardDialog={onboardDialog} walletDialog={walletDialog} />
           </div>

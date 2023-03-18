@@ -5,7 +5,7 @@ import { useDialogState } from 'ariakit';
 import { useAccount } from 'wagmi';
 import Header from './Header';
 import Hero from './Hero';
-import Footer from './Footer';
+// import Footer from './Footer';
 import OnboardDialog from '~/components/Onboard';
 import CustomToast from '~/components/CustomToast';
 import StaleSubgraphWarning from '~/components/StaleSubgraphWarning';
@@ -30,11 +30,11 @@ export default function Layout({ children, className, ...props }: ILayoutProps) 
   return (
     <>
       <Head>
-        <title>LlamaPay</title>
-        <meta
+        <title>SurvStreams</title>
+        {/* <meta
           name="description"
-          content="LlamaPay is a multi-chain protocol that allows you to automate transactions and stream them by the second. The recipients can withdraw these funds at any time. This eliminates the need for manual transactions."
-        />
+          content="SurvStreams is a multi-chain protocol that allows you to automate transactions and stream them by the second. The recipients can withdraw these funds at any time. This eliminates the need for manual transactions."
+        /> */}
       </Head>
       <StaleSubgraphWarning />
 
@@ -58,7 +58,7 @@ export default function Layout({ children, className, ...props }: ILayoutProps) 
 
       <OnboardDialog dialog={onboardDialog} />
 
-      <Footer />
+      {/* <Footer /> */}
 
       <CustomToast />
 

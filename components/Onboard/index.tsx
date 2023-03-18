@@ -71,8 +71,8 @@ export default function OnboardDialog({ dialog, className }: IOnboardProps) {
       )}
       id="onboard-form"
     >
-      <section className="relative flex w-full flex-col justify-center border-[#EAEAEA] bg-[#F9FDFB] p-7 dark:border-lp-gray-3 dark:bg-[#202020] sm:max-w-[16rem] sm:border-r">
-        <button onClick={dialog.toggle} className="absolute top-4 right-4 sm:hidden">
+      {/* <section className="relative flex w-full flex-col justify-center border-[#EAEAEA] bg-[#F9FDFB] p-7 dark:border-lp-gray-3 dark:bg-[#202020] sm:max-w-[16rem] sm:border-r"> */}
+        {/* <button onClick={dialog.toggle} className="absolute top-4 right-4 sm:hidden">
           <span className="sr-only">{t0('close')}</span>
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -80,17 +80,17 @@ export default function OnboardDialog({ dialog, className }: IOnboardProps) {
               fill="#4E575F"
             />
           </svg>
-        </button>
-        <SideContent />
-        <a
+        </button> */}
+        {/* <SideContent /> */}
+        {/* <a
           className="bottom-7 mt-7 text-xs underline md:absolute"
           href="https://docs.llamapay.io/"
           target="_blank"
           rel="noreferrer noopener"
         >
           {t1('learnMore')}
-        </a>
-      </section>
+        </a> */}
+      {/* </section> */}
       <section className="relative flex flex-1 flex-col dark:border-lp-gray-3 dark:bg-[#202020] md:overflow-clip">
         <div
           style={{

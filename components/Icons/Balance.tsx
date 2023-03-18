@@ -18,7 +18,8 @@ export function Balance({ width = 21, height = 24 }: { width?: number; height?: 
           y2="20.9002"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
+          {/* <stop stopColor="#7DE3C3" /> */}
+          <stop stopColor="#FFFFFF" />
           <stop offset="1" stopColor="#0BA360" />
         </linearGradient>
         <linearGradient
@@ -29,7 +30,8 @@ export function Balance({ width = 21, height = 24 }: { width?: number; height?: 
           y2="17.9475"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#D9F7EE" />
+          {/* <stop stopColor="#D9F7EE" /> */}
+          <stop stopColor="#FFFFFF" />
           <stop offset="1" stopColor="#2DF19B" />
         </linearGradient>
       </defs>

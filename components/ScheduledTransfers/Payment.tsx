@@ -36,39 +36,39 @@ export function ScheduledTransferPayment({
       <table className="w-full border-collapse">
         <thead>
           <tr>
-            <th className="whitespace-nowrap border border-llama-teal-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
+            <th className="whitespace-nowrap border border-llama-gray-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
               Token
             </th>
-            <th className="whitespace-nowrap border border-llama-teal-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
+            <th className="whitespace-nowrap border border-llama-gray-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
               {isIncoming ? 'Payer' : 'Payee'}
             </th>
-            <th className="whitespace-nowrap border border-llama-teal-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
+            <th className="whitespace-nowrap border border-llama-gray-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
               Start
             </th>
-            <th className="whitespace-nowrap border border-llama-teal-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
+            <th className="whitespace-nowrap border border-llama-gray-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
               End
             </th>
-            <th className="whitespace-nowrap border border-llama-teal-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
+            <th className="whitespace-nowrap border border-llama-gray-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
               Last Paid
             </th>
-            <th className="whitespace-nowrap border border-llama-teal-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
+            <th className="whitespace-nowrap border border-llama-gray-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
               Amount USD
             </th>
-            <th className="whitespace-nowrap border border-llama-teal-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
+            <th className="whitespace-nowrap border border-llama-gray-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
               Redirects
             </th>
-            <th className="whitespace-nowrap border border-llama-teal-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
+            <th className="whitespace-nowrap border border-llama-gray-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7">
               Frequency
             </th>
 
-            <th className="whitespace-nowrap border border-llama-teal-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7"></th>
+            <th className="whitespace-nowrap border border-llama-gray-2 py-[6px] px-4 text-center text-sm font-normal dark:border-lp-gray-7"></th>
           </tr>
         </thead>
 
-        <tbody className="border border-llama-teal-2 dark:border-lp-gray-7">
+        <tbody className="border border-llama-gray-2 dark:border-lp-gray-7">
           {payments.map((payment) => (
             <tr key={payment.id}>
-              <td className="table-description border border-solid border-llama-teal-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+              <td className="table-description border border-solid border-llama-gray-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
                 {payment.pool.token ? (
                   explorerUrl ? (
                     <a
@@ -91,7 +91,7 @@ export function ScheduledTransferPayment({
                   ''
                 )}
               </td>
-              <td className="table-description border border-solid border-llama-teal-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+              <td className="table-description border border-solid border-llama-gray-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
                 {explorerUrl ? (
                   <a
                     href={`${explorerUrl}/address/${isIncoming ? payment.pool.owner : payment.history[0].to}`}
@@ -104,28 +104,28 @@ export function ScheduledTransferPayment({
                   <>{formatAddress(isIncoming ? payment.pool.owner : payment.history[0].to)}</>
                 )}
               </td>
-              <td className="table-description border border-solid border-llama-teal-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+              <td className="table-description border border-solid border-llama-gray-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
                 {payment.starts
                   ? new Date(Number(payment.starts) * 1000).toLocaleDateString() +
                     ', ' +
                     new Date(Number(payment.starts) * 1000).toLocaleTimeString()
                   : ''}
               </td>
-              <td className="table-description border border-solid border-llama-teal-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+              <td className="table-description border border-solid border-llama-gray-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
                 {payment.ends
                   ? new Date(Number(payment.ends) * 1000).toLocaleDateString() +
                     ', ' +
                     new Date(Number(payment.ends) * 1000).toLocaleTimeString()
                   : ''}
               </td>
-              <td className="table-description border border-solid border-llama-teal-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+              <td className="table-description border border-solid border-llama-gray-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
                 {payment.lastPaid !== payment.starts
                   ? new Date(Number(payment.lastPaid) * 1000).toLocaleDateString() +
                     ', ' +
                     new Date(Number(payment.lastPaid) * 1000).toLocaleTimeString()
                   : ''}
               </td>
-              <td className="table-description border border-solid border-llama-teal-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+              <td className="table-description border border-solid border-llama-gray-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
                 {payment.usdAmount
                   ? '$' +
                     (Number(payment.usdAmount) / 1e8).toLocaleString(undefined, {
@@ -133,7 +133,7 @@ export function ScheduledTransferPayment({
                     })
                   : ''}
               </td>
-              <td className="table-description border border-solid border-llama-teal-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+              <td className="table-description border border-solid border-llama-gray-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
                 {explorerUrl && payment.redirects ? (
                   <a href={`${explorerUrl}/address/${payment.redirects}`} target="_blank" rel="noopener noreferrer">
                     {formatAddress(payment.redirects)}
@@ -142,7 +142,7 @@ export function ScheduledTransferPayment({
                   ''
                 )}
               </td>
-              <td className="table-description border border-solid border-llama-teal-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+              <td className="table-description border border-solid border-llama-gray-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
                 {formatFrequency(payment.frequency)}
               </td>
               {isIncoming ? (
@@ -166,7 +166,7 @@ export function ScheduledTransferPayment({
           {newPaymentDialog && (
             <tr>
               <td
-                className="table-description border border-solid border-llama-teal-2 py-4 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white"
+                className="table-description border border-solid border-llama-gray-2 py-4 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white"
                 colSpan={10}
               >
                 <button
@@ -241,7 +241,7 @@ const Redirects = ({
   };
 
   return (
-    <td className="table-description border border-solid border-llama-teal-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+    <td className="table-description border border-solid border-llama-gray-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
       <button className="primary-button py-1 px-[6px] text-xs font-medium" onClick={redirectDialog.toggle}>
         Redirect
       </button>
@@ -305,7 +305,7 @@ const CancelTransfer = ({
   };
 
   return (
-    <td className="table-description border border-solid border-llama-teal-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+    <td className="table-description border border-solid border-llama-gray-2 text-center text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
       <button className="primary-button py-1 px-[6px] text-xs font-medium" onClick={cancel}>
         Cancel
       </button>

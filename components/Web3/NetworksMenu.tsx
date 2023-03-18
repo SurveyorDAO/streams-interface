@@ -73,12 +73,12 @@ export const NetworksMenu = () => {
       {select.mounted && (
         <SelectPopover
           state={select}
-          className="z-10 max-h-[280px] w-fit min-w-[12rem] overflow-y-auto rounded-lg border border-llama-teal-2 bg-white p-2 drop-shadow-sm dark:border-lp-gray-7 dark:bg-[#202020]"
+          className="z-10 max-h-[280px] w-fit min-w-[12rem] overflow-y-auto rounded-lg border border-llama-gray-2 bg-white p-2 drop-shadow-sm dark:border-lp-gray-7 dark:bg-[#202020]"
         >
           <SelectGroup>
-            <SelectGroupLabel className="p-2 text-sm font-normal text-neutral-500 dark:text-white">
+            {/* <SelectGroupLabel className="p-2 text-sm font-normal text-neutral-500 dark:text-white">
               Mainnets
-            </SelectGroupLabel>
+            </SelectGroupLabel> */}
             {mainnets.map((value) => {
               const { network } = chainDetails(value?.id?.toString());
               return (
@@ -104,8 +104,8 @@ export const NetworksMenu = () => {
               );
             })}
           </SelectGroup>
-          <SelectSeparator className="my-2 border-llama-teal-1 dark:border-lp-gray-7" />
-          <SelectGroup>
+          {/* <SelectSeparator className="my-2 border-llama-gray-1 dark:border-lp-gray-7" /> */}
+          {/* <SelectGroup>
             <SelectGroupLabel className="p-2 text-sm font-normal text-neutral-500 dark:text-white">
               Testnets
             </SelectGroupLabel>
@@ -133,7 +133,7 @@ export const NetworksMenu = () => {
                 </SelectItem>
               );
             })}
-          </SelectGroup>
+          </SelectGroup> */}
         </SelectPopover>
       )}
     </>

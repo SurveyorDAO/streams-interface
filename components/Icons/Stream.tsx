@@ -30,8 +30,9 @@ export function Stream({ width = 21, height = 22 }: { width?: number; height?: n
           y2="-4.48721"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          {/* <stop stopColor="#7DE3C3" /> */}
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_174_56501"
@@ -41,8 +42,9 @@ export function Stream({ width = 21, height = 22 }: { width?: number; height?: n
           y2="-4.48755"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          {/* <stop stopColor="#7DE3C3" /> */}
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_174_56501"
@@ -52,8 +54,9 @@ export function Stream({ width = 21, height = 22 }: { width?: number; height?: n
           y2="-4.48741"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          {/* <stop stopColor="#7DE3C3" /> */}
+          <stop stopColor="#FFFFFF" />
+          <stop offset="1" stopColor="#FFFFFF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_174_56501"
@@ -63,7 +66,8 @@ export function Stream({ width = 21, height = 22 }: { width?: number; height?: n
           y2="1.54327"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#D9F7EE" />
+          {/* <stop stopColor="#D9F7EE" /> */}
+          <stop stopColor="#FFFFFF" />
           <stop offset="1" stopColor="#2DF19B" />
         </linearGradient>
         <linearGradient
@@ -74,8 +78,10 @@ export function Stream({ width = 21, height = 22 }: { width?: number; height?: n
           y2="22.6874"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#7DE3C3" />
-          <stop offset="1" stopColor="#0BA360" />
+          {/* <stop stopColor="#7DE3C3" /> */}
+          <stop stopColor="#FFFFFF" />
+          {/* <stop offset="1" stopColor="#FFFFFF" /> */}
+          <stop offset="1" stopColor="#FFFFFF" />
         </linearGradient>
       </defs>
     </svg>

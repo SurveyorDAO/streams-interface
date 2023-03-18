@@ -38,7 +38,7 @@ export default function VestingSection() {
           href="/vesting/create"
           aria-disabled={!vestingFactory}
           className={classNames(
-            'primary-button text-md py-2 px-5 text-center font-bold',
+            'primary-button bg-lp-white text-md py-2 px-5 text-center font-bold',
             !vestingFactory && 'pointer-events-none opacity-50 hover:cursor-not-allowed'
           )}
         >

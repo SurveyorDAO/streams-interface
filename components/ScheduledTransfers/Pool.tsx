@@ -283,10 +283,10 @@ export function ScheduledTransferPool({ pool }: { pool: IScheduledTransferPool }
         <table className="border-collapse text-lp-gray-4 dark:text-white">
           <tbody>
             <tr>
-              <th className="whitespace-nowrap border border-llama-teal-2 py-[6px] px-4 text-left text-sm font-semibold dark:border-lp-gray-7">
+              <th className="whitespace-nowrap border border-llama-gray-2 py-[6px] px-4 text-left text-sm font-semibold dark:border-lp-gray-7">
                 Pool
               </th>
-              <td className="table-description border border-solid border-llama-teal-2 text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+              <td className="table-description border border-solid border-llama-gray-2 text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
                 {explorerUrl ? (
                   <a href={`${explorerUrl}/address/${pool.poolContract}`} target="_blank" rel="noopener noreferrer">
                     {pool.poolContract}
@@ -297,10 +297,10 @@ export function ScheduledTransferPool({ pool }: { pool: IScheduledTransferPool }
               </td>
             </tr>
             <tr>
-              <th className="whitespace-nowrap border border-llama-teal-2 py-[6px] px-4 text-left text-sm font-semibold dark:border-lp-gray-7">
+              <th className="whitespace-nowrap border border-llama-gray-2 py-[6px] px-4 text-left text-sm font-semibold dark:border-lp-gray-7">
                 Token
               </th>
-              <td className="table-description border border-solid border-llama-teal-2 text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+              <td className="table-description border border-solid border-llama-gray-2 text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
                 <span className="flex flex-wrap items-center justify-between gap-4">
                   <span className="flex space-x-1">
                     {explorerUrl ? (
@@ -336,10 +336,10 @@ export function ScheduledTransferPool({ pool }: { pool: IScheduledTransferPool }
               </td>
             </tr>
             <tr>
-              <th className="whitespace-nowrap border border-llama-teal-2 py-[6px] px-4 text-left text-sm font-semibold dark:border-lp-gray-7">
+              <th className="whitespace-nowrap border border-llama-gray-2 py-[6px] px-4 text-left text-sm font-semibold dark:border-lp-gray-7">
                 Oracle
               </th>
-              <td className="table-description border border-solid border-llama-teal-2 text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+              <td className="table-description border border-solid border-llama-gray-2 text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
                 <span className="flex flex-wrap items-center justify-between gap-4">
                   <span>
                     {explorerUrl ? (
@@ -357,12 +357,12 @@ export function ScheduledTransferPool({ pool }: { pool: IScheduledTransferPool }
               </td>
             </tr>
             <tr>
-              <th className="whitespace-nowrap border border-llama-teal-2 py-[6px] px-4 text-left text-sm font-semibold dark:border-lp-gray-7">
+              <th className="whitespace-nowrap border border-llama-gray-2 py-[6px] px-4 text-left text-sm font-semibold dark:border-lp-gray-7">
                 <Tooltip content="Min USD price for the token that the oracle will be allowed to report">
                   Min Price
                 </Tooltip>
               </th>
-              <td className="table-description border border-solid border-llama-teal-2 text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+              <td className="table-description border border-solid border-llama-gray-2 text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
                 <span className="flex flex-wrap items-center justify-between gap-4">
                   <span>
                     {pool.maxPrice
@@ -379,10 +379,10 @@ export function ScheduledTransferPool({ pool }: { pool: IScheduledTransferPool }
               </td>
             </tr>
             <tr>
-              <th className="whitespace-nowrap border border-llama-teal-2 py-[6px] px-4 text-left text-sm font-semibold dark:border-lp-gray-7">
+              <th className="whitespace-nowrap border border-llama-gray-2 py-[6px] px-4 text-left text-sm font-semibold dark:border-lp-gray-7">
                 Payments
               </th>
-              <td className="overflow-x-auto border border-solid border-llama-teal-2 text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
+              <td className="overflow-x-auto border border-solid border-llama-gray-2 text-lp-gray-4 dark:border-lp-gray-7 dark:text-white">
                 <ScheduledTransferPayment payments={pool.payments} newPaymentDialog={newPaymentDialog} />
               </td>
             </tr>

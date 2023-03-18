@@ -1,10 +1,10 @@
 import {
-  BookOpenIcon,
-  BuildingLibraryIcon,
-  MoonIcon,
+  // BookOpenIcon,
+  // BuildingLibraryIcon,
+  // MoonIcon,
   PlayIcon,
-  SunIcon,
-  CommandLineIcon,
+  // SunIcon,
+  // CommandLineIcon,
 } from '@heroicons/react/24/outline';
 import { DisclosureState } from 'ariakit';
 import { Menu, MenuItem } from '~/components/NestedMenu';
@@ -15,7 +15,7 @@ import { formatAddress } from '~/utils/address';
 import { chainDetails } from '~/utils/network';
 import { useAccount, useNetwork, useSwitchNetwork } from 'wagmi';
 import defaultImage from '~/public/empty-token.webp';
-import { useTheme } from 'next-themes';
+// import { useTheme } from 'next-themes';
 import Link from 'next/link';
 
 export default function HeaderMenu({
@@ -34,11 +34,11 @@ export default function HeaderMenu({
   const t1 = useTranslations('Common');
   const t2 = useTranslations('Header');
 
-  const { setTheme, resolvedTheme } = useTheme();
+  // const { setTheme, resolvedTheme } = useTheme();
 
-  const isMounted = useIsMounted();
+  // const isMounted = useIsMounted();
 
-  const isDark = resolvedTheme === 'dark';
+  // const isDark = resolvedTheme === 'dark';
 
   const address = walletAddress ? formatAddress(walletAddress) : null;
 
@@ -124,27 +124,27 @@ export default function HeaderMenu({
 
       {isMaxWidthLg && (
         <>
-          <Menu label="Salaries">
+          {/* <Menu label="Salaries">
             <MenuItem label={<Link href="/">Streams</Link>} />
             <MenuItem label={<Link href="/create">Create</Link>} />
             <MenuItem label={<Link href="/withdraw">Withdraw</Link>} />
-          </Menu>
+          </Menu> */}
 
           <Menu label="Vesting">
             <MenuItem label={<Link href="/vesting">Streams</Link>} />
             <MenuItem label={<Link href="/vesting/create">Create</Link>} />
           </Menu>
 
-          <Menu label="Payments">
+          {/* <Menu label="Payments">
             <MenuItem label={<Link href="/payments">Streams</Link>} />
             <MenuItem label={<Link href="/payments/create">Create</Link>} />
-          </Menu>
+          </Menu> */}
 
-          <Menu label="Token Salaries">
+          {/* <Menu label="Token Salaries">
             <MenuItem label={<Link href="/token-salaries/incoming">Incoming</Link>} />
             <MenuItem label={<Link href="/token-salaries/outgoing">Outgoing</Link>} />
             <MenuItem label={<Link href="/token-salaries/create">Create</Link>} />
-          </Menu>
+          </Menu> */}
         </>
       )}
 
@@ -159,7 +159,7 @@ export default function HeaderMenu({
         ))}
       </Menu>
 
-      {isMaxWidthLg && (
+      {/* {isMaxWidthLg && (
         <MenuItem
           label={
             <a
@@ -173,9 +173,9 @@ export default function HeaderMenu({
             </a>
           }
         />
-      )}
+      )} */}
 
-      {isMaxWidthLg && (
+      {/* {isMaxWidthLg && (
         <MenuItem
           label={
             <a
@@ -189,9 +189,9 @@ export default function HeaderMenu({
             </a>
           }
         />
-      )}
+      )} */}
 
-      {isMaxWidthLg && (
+      {/* {isMaxWidthLg && (
         <MenuItem
           label={
             <a
@@ -205,9 +205,9 @@ export default function HeaderMenu({
             </a>
           }
         />
-      )}
+      )} */}
 
-      {isMounted && isMaxWidthLg && (
+      {/* {isMounted && isMaxWidthLg && (
         <MenuItem
           label={
             <>
@@ -217,7 +217,7 @@ export default function HeaderMenu({
           }
           onClick={() => setTheme(isDark ? 'light' : 'dark')}
         />
-      )}
+      )} */}
     </Menu>
   );
 }

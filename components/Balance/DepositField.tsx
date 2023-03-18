@@ -63,7 +63,7 @@ const DepositField = ({ tokens, userAddress, dialog }: IDepositFieldprops) => {
           <p className="my-2 text-center text-sm text-red-500">{approvalError?.message}</p>
 
           {isApproved || process.env.NEXT_PUBLIC_SAFE === 'true' ? (
-            <button disabled={confirmingDeposit} className="form-submit-button mt-5">
+            <button disabled={confirmingDeposit} className="form-submit-button bg-lp-white mt-5">
               {confirmingDeposit ? <BeatLoader size="6px" color="white" /> : t0('deposit')}
             </button>
           ) : (

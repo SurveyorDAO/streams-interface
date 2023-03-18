@@ -54,7 +54,7 @@ export function Nav() {
         <LinkItem name="Create" href="/token-salaries/create" isActive={router.pathname === '/token-salaries/create'} />
       </Group>
 
-      <span className="my-3 h-[1px] bg-llama-teal-2 dark:bg-lp-gray-7" />
+      <span className="my-3 h-[1px] bg-llama-gray-2 dark:bg-lp-gray-7" />
 
       <a
         href="https://docs.llamapay.io/llamapay/gnosis-safe/adding-as-a-custom-app"
@@ -99,12 +99,12 @@ const LinkItem = ({ isActive, href, name }: { isActive: boolean; href: string; n
     <li
       className={classNames(
         'border-l border-llama-gray-300 px-2 dark:border-lp-gray-7',
-        isActive && '!border-llama-green-500'
+        isActive && '!border-llama-gray-500'
       )}
     >
       <Link
         href={href}
-        className={classNames('text-sm font-medium', isActive && 'font-bold text-llama-green-500 dark:text-lp-white')}
+        className={classNames('text-sm font-medium', isActive && 'font-bold text-llama-gray-500 dark:text-lp-white')}
       >
         {name}
       </Link>

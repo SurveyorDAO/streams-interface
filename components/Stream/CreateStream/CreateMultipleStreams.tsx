@@ -282,7 +282,7 @@ const CreateMultipleStreams = ({ tokens }: { tokens: ITokenBalance[] }) => {
         );
       })}
 
-      <div className="mt-2 flex flex-col gap-3 sm:flex-row">
+      <div className="mt-2 flex bg-lp-white flex-col gap-3 sm:flex-row">
         <SubmitButton className="flex-1" disabled={createStreamLoading || batchLoading || gnosisLoading}>
           {createStreamLoading || batchLoading ? (
             <BeatLoader size="6px" color="white" />

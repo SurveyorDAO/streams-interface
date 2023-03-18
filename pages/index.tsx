@@ -4,13 +4,15 @@ import Layout from '~/components/Layout';
 import Balance from '~/components/Balance';
 import { HistorySection } from '~/components/History';
 import { StreamSection } from '~/components/Stream';
+import Vesting from '~/components/Vesting';
 
 const Home: NextPage = () => {
   return (
     <Layout className="flex flex-col gap-12">
-      <Balance />
-      <StreamSection />
-      <HistorySection />
+      {/* <Balance /> */}
+      <Vesting />
+      {/* <StreamSection /> */}
+      {/* <HistorySection /> */}
     </Layout>
   );
 };
