@@ -82,7 +82,7 @@ export const Push = ({ data, buttonName, className }: PushProps) => {
       ) : (
         <button
           onClick={handleClick}
-          className={classNames('primary-button my-[-2px] px-3 py-1 text-sm  font-medium shadow-none', className)}
+          className={classNames('primary-button bg-lp-white my-[-2px] px-3 py-1 text-sm  font-medium shadow-none', className)}
         >
           {buttonName === 'Withdraw' ? t0('withdraw') : t1('send')}
         </button>

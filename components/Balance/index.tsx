@@ -76,7 +76,7 @@ const Balance = (props: { address?: string }) => {
 
         {showActions && (
           <button
-            className="primary-button"
+            className="bg-lp-white primary-button"
             disabled={isLoading || tokensLoading || !address || !tokens}
             onClick={() => {
               depositFieldDialog.toggle();

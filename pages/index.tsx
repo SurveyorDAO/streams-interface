@@ -9,10 +9,10 @@ import Vesting from '~/components/Vesting';
 const Home: NextPage = () => {
   return (
     <Layout className="flex flex-col gap-12">
-      {/* <Balance /> */}
+      <Balance />
       <Vesting />
-      {/* <StreamSection /> */}
-      {/* <HistorySection /> */}
+      <StreamSection />
+      <HistorySection />
     </Layout>
   );
 };

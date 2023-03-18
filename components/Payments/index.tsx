@@ -20,7 +20,7 @@ export default function PaymentsTable() {
         <Link
           href="/payments/create"
           className={classNames(
-            'primary-button text-md py-2 px-5 text-center font-bold',
+            'primary-button bg-lp-white text-md py-2 px-5 text-center font-bold',
             !paymentsContract && 'pointer-events-none opacity-50 hover:cursor-not-allowed'
           )}
           aria-disabled={!paymentsContract}
